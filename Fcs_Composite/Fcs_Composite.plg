@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Fcs_Composite - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Fcs_Composite.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19A.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Fcs_Composite.pdb" /debug /machine:I386 /out:"Debug/Fcs_Composite.exe" /pdbtype:sept 
+".\Debug\Fcs_Composite.obj"
+".\Debug\Fcs_CompositeDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Fcs_Composite.res"
+".\Debug\comp.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19B.tmp"
+<h3>Output Window</h3>
+Compiling...
+Fcs_CompositeDlg.cpp
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(32) : error C2143: syntax error : missing ';' before '.'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(32) : error C2501: 'cFcs' : missing storage-class or type specifiers
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(32) : error C2371: 'cFcs' : redefinition; different basic types
+        D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(20) : see declaration of 'cFcs'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(32) : error C2143: syntax error : missing ';' before '.'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(33) : error C2143: syntax error : missing ';' before '.'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(33) : error C2501: 'cFcs' : missing storage-class or type specifiers
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(33) : error C2371: 'cFcs' : redefinition; different basic types
+        D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(20) : see declaration of 'cFcs'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(33) : error C2143: syntax error : missing ';' before '.'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(34) : error C2143: syntax error : missing ';' before '.'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(34) : error C2501: 'cFcs' : missing storage-class or type specifiers
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(34) : error C2371: 'cFcs' : redefinition; different basic types
+        D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(20) : see declaration of 'cFcs'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(34) : error C2143: syntax error : missing ';' before '.'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(35) : error C2143: syntax error : missing ';' before '.'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(35) : error C2501: 'cSenser' : missing storage-class or type specifiers
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(35) : error C2371: 'cSenser' : redefinition; different basic types
+        D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(21) : see declaration of 'cSenser'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(35) : error C2143: syntax error : missing ';' before '.'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(36) : error C2143: syntax error : missing ';' before '.'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(36) : error C2501: 'cSenser' : missing storage-class or type specifiers
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(36) : error C2371: 'cSenser' : redefinition; different basic types
+        D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(21) : see declaration of 'cSenser'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(36) : error C2143: syntax error : missing ';' before '.'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(37) : error C2143: syntax error : missing ';' before '.'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(37) : error C2501: 'cFirectrl' : missing storage-class or type specifiers
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(37) : error C2371: 'cFirectrl' : redefinition; different basic types
+        D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(22) : see declaration of 'cFirectrl'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(37) : error C2143: syntax error : missing ';' before '.'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(38) : error C2143: syntax error : missing ';' before '.'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(38) : error C2501: 'cFirectrl' : missing storage-class or type specifiers
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(38) : error C2371: 'cFirectrl' : redefinition; different basic types
+        D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(22) : see declaration of 'cFirectrl'
+D:\source_code\Visual C++\Report_code\Fcs_Composite\Fcs_CompositeDlg.cpp(38) : error C2143: syntax error : missing ';' before '.'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Fcs_Composite.exe - 28 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
